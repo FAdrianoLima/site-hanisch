@@ -9,6 +9,7 @@ export default function H28140() {
   const [imagemPrincipal, setImagemPrincipal] = React.useState(
     "/static/images/produtos/medical/h28-140.jpg"
   );
+  
 
   const VideoPlayer = () => {
     const [videoStarted, setVideoStarted] = React.useState(false);
