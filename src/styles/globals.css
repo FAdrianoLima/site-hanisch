@@ -1,0 +1,140 @@
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #000000;
+  --color-secondary: #4481ff;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+}
+
+*,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+
+section {
+  position: relative;
+  padding: 100px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+
+.rec.rec-carousel-wrapper:focus,
+.rec.rec-carousel-wrapper .rec-carousel:focus,
+.rec.rec-carousel-wrapper .rec-slider-container:focus,
+.rec.rec-carousel-wrapper .rec-slider-container .rec-slider:focus,
+.rec.rec-carousel-wrapper .rec-slider-container .rec-slider div:focus {
+  outline: none;
+}
+
+.rec.rec-carousel-wrapper .rec-slider-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Arrow Styles */
+
+.rec.rec-carousel-wrapper .rec-carousel button {
+  background: #4481ff;
+  color: #fff;
+}
+
+.rec.rec-carousel-wrapper .rec-pagination .rec.rec-dot.rec {
+  box-shadow: none;
+  background: #4481ffd4;
+}
+
+.rec.rec-carousel-wrapper .rec-pagination .rec.rec-dot.rec.rec-dot_active {
+  background: #4481ff;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 0.3rem;
+  background-color: #6F6F6F;
+  border: 0;
+}
+
+.MuiFormLabel-root {
+  color: #000000;
+}
+
+.MuiOutlinedInput-root {
+  background-color: #4481ff;
+  color: #ffffff;
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  color: #ffffff;
+}
+@media only screen and (min-width: 216px) and (max-width: 926px) {
+  .MuiButtonBase-root {
+    display: none;
+  }
+}

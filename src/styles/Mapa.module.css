@@ -1,0 +1,62 @@
+.st0 {
+  fill:#999999;
+  stroke:#FFFFFF;
+  stroke-width:0.8;
+  stroke-miterlimit:10;
+}
+.st0:hover {
+  fill: #636363;
+}
+
+.dados {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: .85rem;
+}
+
+.dados span {
+  line-height: 1.5rem;
+}
+
+.dados span strong {
+    font-size: large;
+}
+
+.dados span a {
+  color: #999999;
+}
+
+.btn {
+  background-color: #4481ff;
+  color: #ffffff;
+  width: 13rem;
+  max-width: 13rem;
+  min-width: 13rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+  border: 0.1rem solid transparent;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #666666;
+  transition: 1s;
+}
+
+.zap {
+  position: relative;
+  width: 22px;
+}

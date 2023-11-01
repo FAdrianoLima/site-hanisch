@@ -1,0 +1,155 @@
+.background {
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+}
+
+.interno {
+  width: 100%;
+  max-width: 100rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_row {
+  width: 100%;
+  max-width: 85rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box_row p {
+  font-size: 14px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.box_row button {
+  background-color: #F3F3F3;
+  border: 0;
+  border-radius: 3rem;
+  color: #999999;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-left: 1.4rem;
+  padding: 0.5rem 1rem;
+}
+
+.logo {
+  width: 100%;
+  max-width: 3rem;
+  margin-right: 1rem;
+}
+
+.social_media {
+  width: 100%;
+  max-width: 30rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.social_media a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.social_media span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.social_media img {
+  width: 100%;
+  max-width: 1.5rem;
+  margin: 0rem 0.5rem;
+}
+
+.icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0px 10px;
+}
+
+.Whats {
+  margin: 0rem 0.5rem;
+}
+
+
+@media only screen and (min-width: 216px) and (max-width: 926px) {
+  .mobile {
+    display: none;
+    position: absolute;
+  }
+
+  .interno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 55rem;
+  }
+
+  .box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .box_row {
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social_media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .social_media li svg {
+    display: flex;
+
+  }
+
+  .newfly img {
+    margin-top: 0.5rem;
+    max-height: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .footericon {
+    justify-content: flex-start;
+    padding-top: 0rem;
+  }
+
+  .icon {
+    margin-right: 0rem;
+  }
+}
