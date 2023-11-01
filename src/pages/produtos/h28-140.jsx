@@ -9,11 +9,10 @@ export default function H28140() {
   const [imagemPrincipal, setImagemPrincipal] = React.useState(
     "/static/images/produtos/medical/h28-140.jpg"
   );
-  
 
   const VideoPlayer = () => {
     const [videoStarted, setVideoStarted] = React.useState(false);
-  
+
     const handleClick = () => {
       setVideoStarted(true);
     };
@@ -34,11 +33,10 @@ export default function H28140() {
         alt="Banner"
         onClick={handleClick}
         className="w-full h-[540px]"
-        style={{ cursor: 'pointer' }}
+        style={{ cursor: "pointer" }}
       />
     );
   };
-
 
   return (
     <>
@@ -97,37 +95,44 @@ export default function H28140() {
           <div className={`${styles.box} `}>
             <span>LINHA MEDICAL</span>
             <h3> H28-140 STANDARD</h3>
-            <h4>
-              CAPACIDADE DE EMPREENDER <br />
-              COM TRANSPARÊNCIA.
-              <br />
-              VALORIZAÇÃO DAS PESSOAS
-              <br />E BUSCA POR RESULTADOS.
-            </h4>
+            <h4>Dimensões:</h4>
             <p>
-              Trilhamos nossa trajetória baseada valorização de todas as
-              pessoas, na confiança e na satisfação de nossos clientes.
-              Possuímos produtos de excelência, mão de obra qualificada, os
-              melhores parceiros e fornecedores, além de um atendimento
-              personalizado, procurando sempre superar as suas expectativas,
-              apresentando novas tendências, tecnologias e o cumprindo com os
-              prazos.
+              <li>
+                {" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento
+                - 260mm{" "}
+              </li>
+              <li>
+                {" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Largura -
+                260mm{" "}
+              </li>
+              <li>
+                {" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Altura -
+                140mm{" "}
+              </li>
+              <li>
+                {" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Número de
+                Bandejas - 3{" "}
+              </li>
             </p>
 
             <div className="flex flex-row">
-             <Link href="/contato">
-             <button className={`${styles.botao02} mr-[1rem] `}>
-                {" "}
-                Solicitar orçamento{" "}
-                <img src="/static/images/seta-direita.png" />{" "}
-              </button>
-             </Link>
-             <Link href="/contato">
-             <button className={styles.botao02}>
-                {" "}
-                Comprar agora <img src="/static/images/seta-direita.png" />{" "}
-              </button>
-             </Link>
+              <Link href="/contato">
+                <button className={`${styles.botao02} mr-[1rem] `}>
+                  {" "}
+                  Solicitar orçamento{" "}
+                  <img src="/static/images/seta-direita.png" />{" "}
+                </button>
+              </Link>
+              <Link href="/contato">
+                <button className={styles.botao02}>
+                  {" "}
+                  Comprar agora <img src="/static/images/seta-direita.png" />{" "}
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -138,69 +143,83 @@ export default function H28140() {
           <h3 className="text-[#4481ff] mb-[3rem]">Diferenciais e Vantagens</h3>
           <div className="flex flex-row">
             <p className={`${styles.diferencial}`}>
-              Perfis em alumí­nio, com conformidade com a norma ABNT NBR 8116,
-              garantindo maior resistência para todo sistema Reiki.
+              Matéria prima PPSU. Grande leveza. <br />
+              Maior proteção ao instrumental. <br />
+              graças ao baixo desgaste por atrito.
             </p>
             <p className={`${styles.diferencial}`}>
-              Vidros temperados em 8mm e 10mm. Largura máxima de 600mm e altura
-              máxima do vão (vidro) de 2550mm.
+              Não oxida.
+              <br />
+              Não apresenta manchas.
+              <br />
+              Alta resistência ao impacto, mantendo constante sua aparência de
+              nova.
             </p>
             <p className={`${styles.diferencial}`}>
-              Sistema de nivelamento inovador sem utilização de rebites. Patente
-              registrada por BBa sistemas para envidraçamentos BR 10 2015
-              018655-0.
-            </p>
-          </div>
-
-          <div className="flex flex-row">
-            <p className={`${styles.diferencial}`}>
-              Vedação especial desenvolvida exclusivamente para a marca Reiki
-              com maior vedação contra chuvas e atenuação de ruídos, essa última
-              conforme a espessura do vidro.
-            </p>
-            <p className={`${styles.diferencial}`}>
-              Acabamento com proteção em nylon nas bordas dos vidros.
-            </p>
-            <p className={`${styles.diferencial}`}>
-              Maior valorização do design com a redução do trilho inferior,
-              contando com 19 cores padrão, mais cores customizadas sob
-              consulta.
+              Fácil higienização.
+              <br />
+              Alta resistência ao calor (mais de 190°).
+              <br />
+              Alta durabilidade (grande vida útil de mais de 1000 ciclos de
+              esterilização).
             </p>
           </div>
 
           <div className="flex flex-row">
             <p className={`${styles.diferencial}`}>
-              Abertura total, parcial e fechamento total das lâminas de vidros.
+              Instrumental mais durável
+              <br />
+              Indeformável
+              <br />
+              Distinção
+              <br />
             </p>
             <p className={`${styles.diferencial}`}>
-              Deslizamento mais rápido e mais leve das folhas de vidros.
+              Diferencial de marca. (disponibilidade de gravação a laser na
+              tampa).
+              <br />
+              Customizável, adaptando-se aos mais diversos tipos de
+              instrumentais existentes (aplicação de espaçadores de silicone).
             </p>
             <p className={`${styles.diferencial}`}>
-              Facilidade de limpeza pela área interna do ambiente e com maior
-              segurança.
+              <h4 className="mb-[1rem]">Específico para autoclave a vapor:</h4>
+              Temperatura Deflexão (1.82 Mpa) ASTM D648 200°C
             </p>
           </div>
 
           <div className="flex flex-row">
+          
             <p className={`${styles.diferencial}`}>
-              Versatilidade: sistema se adapta a diversas funcionalidades desde
-              divisórias de ambientes, jardins de inverno, gazebos ou
-              envidraçamento de embarcações
+            <h4  className="mb-[1rem]" >Resistência:</h4> <br />
+            
+              <br />
+              Resistência à ruptura ASTM D638 70 Mpa
+              <br />
+              Resistência ao impacto izod ASTM D256 690 J/m
+              <br />
+              Resistência à flexão ASTM D790 91 Mpa
+              <br />
+              Resistência Dieletrica (3.2 mm) ASTM D149 15 kV/mm
             </p>
             <p className={`${styles.diferencial}`}>
-              Produto em conformidade com a ABNT NBR 16259. Carta Patente Nº BR
-              102015018655-0, sistema de regulagem de nível para fechamento de
-              sacadas.
-            </p>
-            <p className={`${styles.diferencial}`}>
-              Garantia de 5 anos. <br />
-              Consulte as condições*
+              <h4  className="mb-[1rem]" >Leveza:</h4> <br />
+              Matéria prima PPSU/PPSU Raw Material
+              <br />
+              Peso específico conforme ASTM 1,29g/cm³
+              <br />
+              Matéria prima inox/Sainless Raw Material
+              <br />
+              Peso específico conforme ASTM 7,86/cm³
+              <br />
+              Matéria prima Alumínio/Aluminium Raw Material
+              <br />
+              Peso específico conforme ASTM 2,71g/cm³
             </p>
           </div>
         </div>
       </section>
 
-       <VideoPlayer />
+      <VideoPlayer />
 
       <Rodape />
       <RodapeNewFly />
