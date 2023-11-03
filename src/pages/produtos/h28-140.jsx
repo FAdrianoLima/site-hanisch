@@ -94,7 +94,7 @@ export default function H28140() {
           </div>
           <div className={`${styles.box} `}>
             <span>LINHA MEDICAL</span>
-            <h3> H28-140 STANDARD</h3>
+            <h3> H28-140 STANDARD 00</h3>
             <h4>Dimensões:</h4>
             <p>
               <li>
