@@ -35,6 +35,70 @@ export default function aHanisch() {
         <img className={styles.img} src="/static/images/bg-quem-somos.png" />
       </section>
 
+      <section className={`${styles.background} bg-[#4481ff]`}>
+        <div className={styles.interno}>
+          <div className={styles.linha}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H28-140 Standard</h3>
+                <Link href="/produtos/h28-140" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H28-140</h2>
+              </div>
+              <img src="/static/images/h-52-transparente.png" alt="Produto" />
+            </div>
+
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H28-140 Standard</h3>
+                <Link href="/produtos/h28-140" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H28-140</h2>
+              </div>
+              <img src="/static/images/h-52-transparente.png" alt="Produto" />
+            </div>
+          </div>
+
+          <div className={`${styles.linha} mt-[4rem]`}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H28-140 Standard</h3>
+                <Link href="/produtos/h28-140" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H28-140</h2>
+              </div>
+              <img src="/static/images/h-52-transparente.png" alt="Produto" />
+            </div>
+
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H28-140 Standard</h3>
+                <Link href="/produtos/h28-140" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H28-140</h2>
+              </div>
+              <img src="/static/images/h-52-transparente.png" alt="Produto" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className={`${styles.background}`}>
         <div className={styles.interno}>
           <div className={styles.linha}>
@@ -143,7 +207,7 @@ export default function aHanisch() {
           </div>
 
           <div className={styles.linha}>
-          <div className={` ${styles.produto}`}>
+            <div className={` ${styles.produto}`}>
               <img
                 src="/static/images/produtos/medical/h26.jpg"
                 alt="Produto"
@@ -172,13 +236,13 @@ export default function aHanisch() {
               />
               <p> Linha Medical</p>
               <Link href="/produtos/h14" passHref legacyBehavior>
-                <h3>H14 Standard</h3>
+                <h3>H14</h3>
               </Link>
             </div>
           </div>
 
           <div className={styles.linha}>
-          <div className={` ${styles.produto}`}>
+            <div className={` ${styles.produto}`}>
               <img
                 src="/static/images/produtos/medical/hl-26x17-parafuso.jpg"
                 alt="Produto"
@@ -213,7 +277,7 @@ export default function aHanisch() {
           </div>
 
           <div className={styles.linha}>
-          <div className={` ${styles.produto}`}>
+            <div className={` ${styles.produto}`}>
               <img
                 src="/static/images/produtos/medical/hl-26x26-implante.jpg"
                 alt="Produto"
@@ -248,7 +312,7 @@ export default function aHanisch() {
           </div>
 
           <div className={styles.linha}>
-          <div className={` ${styles.produto}`}>
+            <div className={` ${styles.produto}`}>
               <img
                 src="/static/images/produtos/medical/h52-bandeja.jpg"
                 alt="Produto"
@@ -281,7 +345,6 @@ export default function aHanisch() {
               </Link>
             </div>
           </div>
-
         </div>
       </section>
 
