@@ -98,21 +98,21 @@ export default function Blog01() {
 
               <ul className={`${styles.social_media}`}>
                 <li>
-                <Link href="https://www.facebook.com/HanischMedical">
+                <Link href="https://www.facebook.com/HanischMedical" passHref legacyBehavior>
                     <a target="_blank">
                       <img src="/facebook-azul.png"></img>
                     </a>
                   </Link>
                 </li>
                 <li>
-                <Link href="https://www.instagram.com/hanischmedical/">
+                <Link href="https://www.instagram.com/hanischmedical/" passHref legacyBehavior>
                     <a target="_blank">
                       <img src="/Instagram-azul.png"></img>
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.linkedin.com/company/hanischmedical/">
+                  <Link href="https://www.linkedin.com/company/hanischmedical/" passHref legacyBehavior>
                     <a target="_blank">
                       <img src="/LinkedIn-azul.png"></img>
                     </a>

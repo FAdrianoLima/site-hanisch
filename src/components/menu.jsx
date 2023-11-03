@@ -56,40 +56,40 @@ function Menu() {
           className={`${styles.menu} ${styles.navbar} `}
         >
           <li className={styles.li}>
-            <Link href="/">
+            <Link href="/" passHref legacyBehavior>
               <a> Home</a>
             </Link>
           </li>
           <li className={styles.li}>
-            <Link href="/a-Hanisch">
+            <Link href="/a-Hanisch" passHref legacyBehavior>
               <a  >Quem somos</a>
             </Link>
           </li>
 
           <li className={styles.li}>
-            <Link href="/produtos">
+            <Link href="/produtos" passHref legacyBehavior>
               <a  >Produtos</a>
             </Link>
           </li>
 
           <li className={styles.li}>
-            <Link href="/personalizacao">
+            <Link href="/personalizacao" passHref legacyBehavior>
               <a  >Personalização</a>
             </Link>
           </li>
 
           <li className={styles.li}>
-            <Link href="/blog">
+            <Link href="/blog" passHref legacyBehavior>
               <a  >Blog</a>
             </Link>
           </li>
           <li className={styles.li}>
-            <Link href="/representantes">
+            <Link href="/representantes" passHref legacyBehavior>
               <a  >Representantes</a>
             </Link>
           </li>
           <li className={styles.li}>
-            <Link href="/contato">
+            <Link href="/contato" passHref legacyBehavior>
               <a  >Contato</a>
             </Link>
           </li>
@@ -97,21 +97,21 @@ function Menu() {
       
      <ul className={`${styles.social_media}`}>
           <li>
-            <Link href="https://www.facebook.com/HanischMedical">
+            <Link href="https://www.facebook.com/HanischMedical" passHref legacyBehavior>
               <a target="_blank">
                 <img src="/facebook-branco.png"></img>
               </a>
             </Link>
           </li>
           <li>
-            <Link href="https://www.instagram.com/hanischmedical/">
+            <Link href="https://www.instagram.com/hanischmedical/" passHref legacyBehavior>
               <a target="_blank">
                 <img src="/Instagram-branco.png"></img>
               </a>
             </Link>
           </li>
           <li className={styles.button}>
-            <Link href="/contato">
+            <Link href="/contato" passHref legacyBehavior>
               <a  >54 3224.6060</a>
             </Link>
           </li>

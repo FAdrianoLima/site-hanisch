@@ -7,20 +7,20 @@ export default function RodapeNewFly() {
       <div className={styles.content}>
         <span style={{ display: "flex", flexDirection: "row" }}>
           Direitos Reservados 2022 |&nbsp;
-          <Link href="/docs/politica privacidade.pdf">
+          <Link href="/docs/politica privacidade.pdf" passHref legacyBehavior>
             <a target="_blank">Políticas de Privacidade</a>
           </Link>
           &nbsp;| &nbsp;
-          <Link href="/docs/termo uso.pdf">
+          <Link href="/docs/termo uso.pdf" passHref legacyBehavior>
             <a target="_blank">Termos de Uso</a>
           </Link>
           &nbsp; |&nbsp;
-          <Link href="/docs/politica-de-cookies.pdf">
+          <Link href="/docs/politica-de-cookies.pdf" passHref legacyBehavior>
             <a target="_blank">Política de Cookies</a>
           </Link>
           &nbsp;|&nbsp;Desenvolvido por
         </span>
-        <Link href="https://newfly.digital/">
+        <Link href="https://newfly.digital/" passHref legacyBehavior>
           <a target="_blank">
             <img src="/newfly.png" alt="NewFly" />
           </a>

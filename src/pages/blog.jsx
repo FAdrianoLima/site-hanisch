@@ -28,7 +28,7 @@ export default function Blog() {
       </section>
 
       <section style={{ marginTop: "-130px" }} className={styles.background}>
-      <Link href="/blog01">
+      <Link href="/blog01" passHref legacyBehavior>
         <div className={styles.interno2}>
          
             <img
@@ -46,7 +46,7 @@ export default function Blog() {
 
       <section style={{ marginTop: "-100px" }} className={styles.background}>
         <div className={styles.interno}>
-          <Link href="/blog01">
+          <Link href="/blog01" passHref legacyBehavior>
           <div className={styles.blog}>
             <img
             src="/static/images/blog/blog-01.png"
@@ -58,7 +58,7 @@ export default function Blog() {
           </div>
           </Link>
 
-          <Link href="/blog01">
+          <Link href="/blog01" passHref legacyBehavior>
           <div className={styles.blog}>
             <img
             src="/static/images/blog/blog-01.png"
@@ -70,7 +70,7 @@ export default function Blog() {
           </div>
           </Link>
 
-          <Link href="/blog01">
+          <Link href="/blog01" passHref legacyBehavior>
           <div className={styles.blog}>
             <img
             src="/static/images/blog/blog-01.png"

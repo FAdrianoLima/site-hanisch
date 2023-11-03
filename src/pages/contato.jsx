@@ -130,19 +130,19 @@ export default function Contato() {
         </div>
 
         <div className={`${styles.box} mt-[5rem]`}>
-          <Link href="https://api.whatsapp.com/send?phone=555432246060">
+          <Link href="https://api.whatsapp.com/send?phone=555432246060" passHref legacyBehavior>
             <a target="_blank">
               <img src="/whatsapp-cinza.png" /> <span>54 3224.6060</span>
             </a>
           </Link>
 
-          <Link href="https://api.whatsapp.com/send?phone=5554999750481">
+          <Link href="https://api.whatsapp.com/send?phone=5554999750481" passHref legacyBehavior>
             <a target="_blank">
               <img src="/whatsapp-cinza.png" /> <span>54 9 9975.0481</span>
             </a>
           </Link>
 
-          <Link href="mailto:contato@hanisch-medical.com.br">
+          <Link href="mailto:contato@hanisch-medical.com.br" passHref legacyBehavior>
             <a target="_blank">
               <img src="/icon.png" /> contato@hanisch-medical.com.br
             </a>

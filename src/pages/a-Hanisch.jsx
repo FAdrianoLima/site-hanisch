@@ -29,7 +29,7 @@ export default function aHanisch() {
             em estojos esterilizados
             <br /> no brasil.
           </p>
-          <Link href="/">
+          <Link href="/" passHref legacyBehavior>
             <button>
               Conheça Agora{" "}
               <img className="w-[1rem]" src="/static/images/seta-direita.png" />
@@ -146,7 +146,7 @@ export default function aHanisch() {
 
             <button>54 3224.6060</button>
 
-            <Link href="/contato">
+            <Link href="/contato" passHref legacyBehavior>
               <h4>Mais formas de contato</h4>
             </Link>
           </span>

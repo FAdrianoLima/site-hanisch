@@ -73,7 +73,7 @@ const representantes = [
         </span>
         <span>
           <b>Email:</b>&nbsp;
-          <Link href={`mailto:${email}`}>
+          <Link href={`mailto:${email}`} passHref legacyBehavior>
             <a>{email}</a>
           </Link>
         </span>
@@ -85,7 +85,7 @@ const representantes = [
           <b>Cidades de atuação:</b> {cidades}
         </span>
       </div>
-      <Link href={`https://api.whatsapp.com/send?phone=55${whatsApp}`} passHref>
+      <Link href={`https://api.whatsapp.com/send?phone=55${whatsApp}`} passHref legacyBehavior>
         <a target="_blank">
           <span className={styles.btn}>
             <img

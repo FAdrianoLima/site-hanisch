@@ -120,14 +120,14 @@ export default function H28140() {
             </p>
 
             <div className="flex flex-row">
-              <Link href="/contato">
+              <Link href="/contato" passHref legacyBehavior>
                 <button className={`${styles.botao02} mr-[1rem] `}>
                   {" "}
                   Solicitar orçamento{" "}
                   <img src="/static/images/seta-direita.png" />{" "}
                 </button>
               </Link>
-              <Link href="/contato">
+              <Link href="/contato" passHref legacyBehavior>
                 <button className={styles.botao02}>
                   {" "}
                   Comprar agora <img src="/static/images/seta-direita.png" />{" "}

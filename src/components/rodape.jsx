@@ -59,7 +59,7 @@ function Rodape() {
               RS 240, 41 - Loteamento Arco Íris - 93180-000 - Portão/RS 
               </p>
 
-              <Link href="/contato">
+              <Link href="/contato" passHref legacyBehavior>
                 <button>
                   fale conosco
                 </button>
@@ -71,7 +71,7 @@ function Rodape() {
               <li
                className={styles.Whats}
               >
-                  <Link href="https://api.whatsapp.com/send?phone=555135629700">
+                  <Link href="https://api.whatsapp.com/send?phone=555135629700" passHref legacyBehavior>
                     <a target="_blank">
                       <img src="/whatsapp-cinza.png" /> 55 51 3562 9700
                     </a>
@@ -81,7 +81,7 @@ function Rodape() {
                  className={styles.Whats}
                 >
                   <Link
-                  href="https://api.whatsapp.com/send?phone=5554999750481">
+                  href="https://api.whatsapp.com/send?phone=5554999750481" passHref legacyBehavior>
                     <a target="_blank">
                       <img src="/whatsapp-cinza.png" /> 54 9 9975.0481
                     </a>
@@ -89,14 +89,14 @@ function Rodape() {
                 </li>
                 <span>
                 <li>
-            <Link href="https://www.facebook.com/HanischMedical">
+            <Link href="https://www.facebook.com/HanischMedical" passHref legacyBehavior>
                     <a target="_blank">
                       <img src="/facebook-azul.png" />
                     </a>
                   </Link>
                 </li>
                 <li>
-            <Link href="https://www.instagram.com/hanischmedical/">
+            <Link href="https://www.instagram.com/hanischmedical/" passHref legacyBehavior>
                     <a target="_blank">
                       <img src="/Instagram-azul.png" />
                     </a>

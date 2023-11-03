@@ -45,7 +45,7 @@ export default function aHanisch() {
               alt="Produto"
               />
               <p> Linha Medical</p>
-              <Link href="/produtos/h28-140">
+              <Link href="/produtos/h28-140" passHref legacyBehavior>
               <h3>H28-140 Standard</h3>
               </Link>
             </div>

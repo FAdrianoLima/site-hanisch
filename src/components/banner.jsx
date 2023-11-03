@@ -28,7 +28,7 @@ function Banner() {
   return (
     <>
       <section className={styles.background}>
-       <Link href="/produtos" >
+       <Link href="/produtos" passHref legacyBehavior>
        <div className={styles.vertical}>
           <img
             style={{ marginRight: "-9rem" }}
@@ -57,7 +57,7 @@ function Banner() {
             <div className={styles.bloco}>
               <span>
                 {listaItens[activeItem]}
-                <Link href="/">
+                <Link href="/" passHref legacyBehavior>
                   <button>
                     conheça agora &nbsp; &nbsp;
                     <img src="/static/images/seta-direita.png" alt="" />
@@ -83,7 +83,7 @@ function Banner() {
           </div>
         </div>
 
-        <Link href="/produtos">
+        <Link href="/produtos" passHref legacyBehavior>
         <div className={styles.vertical}>
           <img
             style={{ marginRight: "-9rem" }}
@@ -124,7 +124,7 @@ function Banner() {
               Ideal para você que desejar ampliar e inovar nos ambientes da sua
               casa ou apartamento.
             </p>
-            <Link href="/">
+            <Link href="/" passHref legacyBehavior>
               <a>
                 <button>
                   Conheça agora &nbsp; &nbsp;
@@ -170,7 +170,7 @@ function Banner() {
 
             <button>54 3224.6060</button>
 
-            <Link href="/contato">
+            <Link href="/contato" passHref legacyBehavior>
               <h4>Mais formas de contato</h4>
             </Link>
           </span>
@@ -181,7 +181,7 @@ function Banner() {
               Olá, somos a <a>HANISCH</a> Sua <a>melhor opção</a> em estojos
               esterilizados no brasil.
             </p>
-            <Link href="/">
+            <Link href="/" passHref legacyBehavior>
               <button>
                 Quem Somos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <img src="/static/images/seta-direita.png" alt="" />
@@ -269,7 +269,7 @@ function Banner() {
           </div>
 
           <div className={styles.boxblog3}>
-        <Link href="/">
+        <Link href="/" passHref legacyBehavior>
         <p className={styles.vejamais}>
           Veja mais <br />
           em nosso <b>blog</b>  <img
