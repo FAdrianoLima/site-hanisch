@@ -7,7 +7,7 @@ import * as React from "react";
 
 export default function H28140() {
   const [imagemPrincipal, setImagemPrincipal] = React.useState(
-    "/static/images/produtos/medical/h28-140.jpg"
+    "/static/images/produtos/medical/h37-90.jpg"
   );
 
   const VideoPlayer = () => {
@@ -63,20 +63,10 @@ export default function H28140() {
             <div className="flex flex-row justify-between ">
               <img
                 className="cursor-pointer"
-                src="/static/images/produtos/medical/h28-70.jpg"
+                src="/static/images/produtos/medical/h37-90.jpg"
                 onClick={() =>
                   setImagemPrincipal(
-                    "/static/images/produtos/medical/h28-70.jpg"
-                  )
-                }
-              />
-
-              <img
-                className="cursor-pointer"
-                src="/static/images/produtos/medical/h32-01.jpg"
-                onClick={() =>
-                  setImagemPrincipal(
-                    "/static/images/produtos/medical/h32-01.jpg"
+                    "/static/images/produtos/medical/h37-90.jpg"
                   )
                 }
               />
@@ -90,34 +80,41 @@ export default function H28140() {
                   )
                 }
               />
+
+              <img
+                className="cursor-pointer"
+                src="/static/images/produtos/medical/h39-01.jpg"
+                onClick={() =>
+                  setImagemPrincipal(
+                    "/static/images/produtos/medical/h39-01.jpg"
+                  )
+                }
+              />
             </div>
           </div>
           
           <div className={`${styles.box} `}>
            <div>
            <span>LINHA MEDICAL</span>
-            <h3> H28-140 STANDARD</h3>
+            <h3> H37-90 STANDARD</h3>
             <h4>Dimensões:</h4>
             <p>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento
-                - 260mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento - 362mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Largura -
-                260mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Largura - 240mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Altura -
-                140mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Altura - 90mm{" "}
               </span>
               <span>
                 {" "}
                 <img src="/static/images/circulo-azul.png" alt="" /> Número de
-                Bandejas - 3{" "}
+                Bandejas - 1{" "}
               </span>
             </p>
            </div>

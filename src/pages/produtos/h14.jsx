@@ -7,7 +7,7 @@ import * as React from "react";
 
 export default function H28140() {
   const [imagemPrincipal, setImagemPrincipal] = React.useState(
-    "/static/images/produtos/medical/h28-140.jpg"
+    "/static/images/produtos/medical/h14.jpg"
   );
 
   const VideoPlayer = () => {
@@ -63,10 +63,10 @@ export default function H28140() {
             <div className="flex flex-row justify-between ">
               <img
                 className="cursor-pointer"
-                src="/static/images/produtos/medical/h28-70.jpg"
+                src="/static/images/produtos/medical/h14.jpg"
                 onClick={() =>
                   setImagemPrincipal(
-                    "/static/images/produtos/medical/h28-70.jpg"
+                    "/static/images/produtos/medical/h14.jpg"
                   )
                 }
               />
@@ -96,28 +96,20 @@ export default function H28140() {
           <div className={`${styles.box} `}>
            <div>
            <span>LINHA MEDICAL</span>
-            <h3> H28-140 STANDARD</h3>
+            <h3> H14 STANDARD</h3>
             <h4>Dimensões:</h4>
             <p>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento
-                - 260mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento - 130mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Largura -
-                260mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Largura - 40mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Altura -
-                140mm{" "}
-              </span>
-              <span>
-                {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Número de
-                Bandejas - 3{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Altura - 60mm{" "}
               </span>
             </p>
            </div>

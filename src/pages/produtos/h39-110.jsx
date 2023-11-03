@@ -7,7 +7,7 @@ import * as React from "react";
 
 export default function H28140() {
   const [imagemPrincipal, setImagemPrincipal] = React.useState(
-    "/static/images/produtos/medical/h28-140.jpg"
+    "/static/images/produtos/medical/h39-110.jpg"
   );
 
   const VideoPlayer = () => {
@@ -63,10 +63,10 @@ export default function H28140() {
             <div className="flex flex-row justify-between ">
               <img
                 className="cursor-pointer"
-                src="/static/images/produtos/medical/h28-70.jpg"
+                src="/static/images/produtos/medical/h39-110.jpg"
                 onClick={() =>
                   setImagemPrincipal(
-                    "/static/images/produtos/medical/h28-70.jpg"
+                    "/static/images/produtos/medical/h39-110.jpg"
                   )
                 }
               />
@@ -96,28 +96,25 @@ export default function H28140() {
           <div className={`${styles.box} `}>
            <div>
            <span>LINHA MEDICAL</span>
-            <h3> H28-140 STANDARD</h3>
+            <h3> H39-110 STANDARD</h3>
             <h4>Dimensões:</h4>
             <p>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento
-                - 260mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento - 390mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Largura -
-                260mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Largura - 265mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Altura -
-                140mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Altura - 110mm{" "}
               </span>
               <span>
                 {" "}
                 <img src="/static/images/circulo-azul.png" alt="" /> Número de
-                Bandejas - 3{" "}
+                Bandejas - 2{" "}
               </span>
             </p>
            </div>

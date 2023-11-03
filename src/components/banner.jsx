@@ -181,7 +181,7 @@ function Banner() {
               Olá, somos a <a>HANISCH</a> Sua <a>melhor opção</a> em estojos
               esterilizados no brasil.
             </p>
-            <Link href="/" passHref legacyBehavior>
+            <Link href="/a-Hanisch" passHref legacyBehavior>
               <button>
                 Quem Somos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <img src="/static/images/seta-direita.png" alt="" />

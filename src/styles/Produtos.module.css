@@ -82,23 +82,33 @@
   transition: 1s;
   width: 100%;
   max-width: 21rem;
+  z-index: 123;
 }
 
 .produto img:hover {
   scale: 1.2;
   transition: 1s;
   overflow: hidden;
+  z-index: 123;
 }
 
 .produto p {
   text-transform: uppercase;
   font-weight: 500;
+  z-index: 12345;
 }
 
 .produto h3 {
   color: #4481FF;
   font-size: 28px;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+
+.produto h3:hover {
+  color: #2660d2;
+  transition: 0.5s;
 }
 
 @media only screen and (min-width: 216px) and (max-width: 926px) {
