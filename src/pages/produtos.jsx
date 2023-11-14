@@ -42,28 +42,34 @@ export default function aHanisch() {
               <div className={styles.informacoes}>
                 <p>Linha Medical</p>
                 <h3>H28-140 Standard</h3>
-                <Link href="/produtos/h28-140" passHref legacyBehavior>
+                <Link href="/medical/h28-140" passHref legacyBehavior>
                   <button>Ver Produto</button>
                 </Link>
               </div>
               <div className={styles.textoFundo}>
                 <h2>H28-140</h2>
               </div>
-              <img src="/static/images/h-52-transparente.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/medical/h28-140.png"
+                alt="Produto"
+              />
             </div>
 
             <div className={` ${styles.produto2}`}>
               <div className={styles.informacoes}>
                 <p>Linha Medical</p>
-                <h3>H28-140 Standard</h3>
-                <Link href="/produtos/h28-140" passHref legacyBehavior>
+                <h3>H28-70 Standard</h3>
+                <Link href="/medical/h28-70" passHref legacyBehavior>
                   <button>Ver Produto</button>
                 </Link>
               </div>
               <div className={styles.textoFundo}>
-                <h2>H28-140</h2>
+                <h2>H28-70</h2>
               </div>
-              <img src="/static/images/h-52-transparente.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/medical/h28-70.png"
+                alt="Produto"
+              />
             </div>
           </div>
 
@@ -71,6 +77,409 @@ export default function aHanisch() {
             <div className={` ${styles.produto2}`}>
               <div className={styles.informacoes}>
                 <p>Linha Medical</p>
+                <h3>H32 Standard</h3>
+                <Link href="/medical/h32" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H32-01</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h32-01.png"
+                alt="Produto"
+              />
+            </div>
+
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H37-90 Standard</h3>
+                <Link href="/medical/h37-90" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H37-90</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h37-90.png"
+                alt="Produto"
+              />
+            </div>
+          </div>
+
+          <div className={`${styles.linha} mt-[4rem]`}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H39-110 Standard</h3>
+                <Link href="/medical/h39-110" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H39-110</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h39-110.png"
+                alt="Produto"
+              />
+            </div>
+
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H49-100 Standard</h3>
+                <Link href="/medical/h49-100" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H49-100</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h49-100.png"
+                alt="Produto"
+              />
+            </div>
+          </div>
+
+          <div className={`${styles.linha} mt-[4rem]`}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H49-70 Standard</h3>
+                <Link href="/medical/h49-70" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H49-70</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h49-70.png"
+                alt="Produto"
+              />
+            </div>
+
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H52-100 Standard</h3>
+                <Link href="/medical/h52-100" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H52-100</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h49-100.png"
+                alt="Produto"
+              />
+            </div>
+          </div>
+
+          <div className={`${styles.linha} mt-[4rem]`}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H49-70 Standard</h3>
+                <Link href="/medical/h49-70" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H49-70</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h49-70.png"
+                alt="Produto"
+              />
+            </div>
+
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H52-100 Standard</h3>
+                <Link href="/medical/h52-100" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H52-100</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h52-100.png"
+                alt="Produto"
+              />
+            </div>
+          </div>
+
+          <div className={`${styles.linha} mt-[4rem]`}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H52-160 Standard</h3>
+                <Link href="/medical/h52-160" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H52-160</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h52-160.png"
+                alt="Produto"
+              />
+            </div>
+
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H26 Standard</h3>
+                <Link href="/medical/h26" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H26</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h26.png"
+                alt="Produto"
+              />
+            </div>
+          </div>
+
+          <div className={`${styles.linha} mt-[4rem]`}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H45 Standard</h3>
+                <Link href="/medical/h45" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H45</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h45.png"
+                alt="Produto"
+              />
+            </div>
+
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H14</h3>
+                <Link href="/medical/h14" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H14</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h14.png"
+                alt="Produto"
+              />
+            </div>
+          </div>
+
+          <div className={`${styles.linha} mt-[4rem]`}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>HL26x17 Parafuso</h3>
+                <Link
+                  href="/medical/hl-26x17-parafuso"
+                  passHref
+                  legacyBehavior
+                >
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>HL 26x17</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/hl-26x17-parafuso.png"
+                alt="Produto"
+              />
+            </div>
+
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>HL 26x26 Parafuso</h3>
+                <Link
+                  href="/medical/hl-26x26-parafuso"
+                  passHref
+                  legacyBehavior
+                >
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>HL 26x26</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/hl-26x26-parafuso.png"
+                alt="Produto"
+              />
+            </div>
+          </div>
+
+          <div className={`${styles.linha} mt-[4rem]`}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>HL26x17 Implante</h3>
+                <Link
+                  href="/medical/hl-26x17-implante"
+                  passHref
+                  legacyBehavior
+                >
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>HL 26x17</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/hl-26x17-implante.png"
+                alt="Produto"
+              />
+            </div>
+
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>HL26x26 Implante</h3>
+                <Link
+                  href="/medical/hl-26x26-implante"
+                  passHref
+                  legacyBehavior
+                >
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>HL 26x26</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/hl-26x26-implante.png"
+                alt="Produto"
+              />
+            </div>
+          </div>
+
+          <div className={`${styles.linha} mt-[4rem]`}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H37 bandeja</h3>
+                <Link href="/medical/h37-bandeja" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H37</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h37-bandeja.png"
+                alt="Produto"
+              />
+            </div>
+
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H49 Bandeja</h3>
+                <Link href="/medical/h49-bandeja" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H49</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h49-bandeja.png"
+                alt="Produto"
+              />
+            </div>
+          </div>
+
+          <div className={`${styles.linha} mt-[4rem]`}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
+                <h3>H52 bandeja</h3>
+                <Link href="/medical/h49-bandeja" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H52</h2>
+              </div>
+              <img
+                src="/static/images/produtos/medical/h49-bandeja.png"
+                alt="Produto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={`${styles.background} bg-[#3d74e7]`}>
+        <div className={styles.interno}>
+          <div className={styles.linha}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Odonto</p>
+                <h3>H12-01</h3>
+                <Link href="/medical/h12-01" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H12-01</h2>
+              </div>
+              <img
+                src="/static/images/produtos/odonto/h12-01.png"
+                alt="Produto"
+              />
+            </div>
+
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Odonto</p>
+                <h3>H18-01</h3>
+                <Link href="/medical/h18-01" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H18-01</h2>
+              </div>
+              <img
+                src="/static/images/produtos/odonto/h18-01.png"
+                alt="Produto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={`${styles.background} bg-[#376cd9]`}>
+        <div className={styles.interno}>
+          <div className={styles.linha}>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
                 <h3>H28-140 Standard</h3>
                 <Link href="/produtos/h28-140" passHref legacyBehavior>
                   <button>Ver Produto</button>
@@ -99,254 +508,40 @@ export default function aHanisch() {
         </div>
       </section>
 
-      <section className={`${styles.background}`}>
+      <section className={`${styles.background} bg-[#666666]`}>
         <div className={styles.interno}>
           <div className={styles.linha}>
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h28-140.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h28-140" passHref legacyBehavior>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
                 <h3>H28-140 Standard</h3>
-              </Link>
+                <Link href="/produtos/h28-140" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H28-140</h2>
+              </div>
+              <img src="/static/images/h-52-transparente.png" alt="Produto" />
             </div>
 
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h28-70.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h28-70" passHref legacyBehavior>
-                <h3>H28-70 Standard</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h32-01.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h32-01" passHref legacyBehavior>
-                <h3>H32 Standard</h3>
-              </Link>
-            </div>
-          </div>
-
-          <div className={styles.linha}>
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h37-90.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h37-90" passHref legacyBehavior>
-                <h3>H37-90 Standard</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h39-110.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h39-110" passHref legacyBehavior>
-                <h3>H39-110 Standard</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h49-100.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h49-100" passHref legacyBehavior>
-                <h3>H49-100 Standard</h3>
-              </Link>
-            </div>
-          </div>
-
-          <div className={styles.linha}>
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h49-70.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h49-70" passHref legacyBehavior>
-                <h3>h49-70 Standard</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h52-100.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h52-100" passHref legacyBehavior>
-                <h3>H52-100 Standard</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h52-160.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h52-160" passHref legacyBehavior>
-                <h3>H52 160 Standard</h3>
-              </Link>
-            </div>
-          </div>
-
-          <div className={styles.linha}>
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h26.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h26" passHref legacyBehavior>
-                <h3>H26 Standard</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h45.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h45" passHref legacyBehavior>
-                <h3>H45 Standard</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h14.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h14" passHref legacyBehavior>
-                <h3>H14</h3>
-              </Link>
-            </div>
-          </div>
-
-          <div className={styles.linha}>
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/hl-26x17-parafuso.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/hl-26x17-parafuso" passHref legacyBehavior>
-                <h3>HL26x17 Parafuso</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/hl-26x26-parafuso.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/hl-26x26-parafuso" passHref legacyBehavior>
-                <h3>HL26x26 Parafuso</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/hl-26x17-implante.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/hl-26x17-implante" passHref legacyBehavior>
-                <h3>HL26x17 Implante</h3>
-              </Link>
-            </div>
-          </div>
-
-          <div className={styles.linha}>
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/hl-26x26-implante.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/hl-26x26-implante" passHref legacyBehavior>
-                <h3>HL26x26 Implante</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h37-bandeja.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h28-140" passHref legacyBehavior>
-                <h3>H37 bandeja</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h49-bandeja.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h49-bandeja" passHref legacyBehavior>
-                <h3>H49 Bandeja</h3>
-              </Link>
-            </div>
-          </div>
-
-          <div className={styles.linha}>
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h52-bandeja.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h52-bandeja" passHref legacyBehavior>
-                <h3>H52 bandeja</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h28-140.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h28-140" passHref legacyBehavior>
+            <div className={` ${styles.produto2}`}>
+              <div className={styles.informacoes}>
+                <p>Linha Medical</p>
                 <h3>H28-140 Standard</h3>
-              </Link>
-            </div>
-
-            <div className={` ${styles.produto}`}>
-              <img
-                src="/static/images/produtos/medical/h28-140.jpg"
-                alt="Produto"
-              />
-              <p> Linha Medical</p>
-              <Link href="/produtos/h28-140" passHref legacyBehavior>
-                <h3>H28-140 Standard</h3>
-              </Link>
+                <Link href="/produtos/h28-140" passHref legacyBehavior>
+                  <button>Ver Produto</button>
+                </Link>
+              </div>
+              <div className={styles.textoFundo}>
+                <h2>H28-140</h2>
+              </div>
+              <img src="/static/images/h-52-transparente.png" alt="Produto" />
             </div>
           </div>
         </div>
       </section>
+
 
       <Rodape />
       <RodapeNewFly />

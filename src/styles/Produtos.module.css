@@ -168,7 +168,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   z-index: 1; /* Deixe o texto de fundo acima da imagem */
 }
 
@@ -177,12 +177,13 @@
   letter-spacing: -1rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.1);
-  margin: 0 0 -8rem 0;
+  margin: 0 0 0rem 0;
+  line-height: 9rem;
 }
 
 .produto2 img {
   z-index: 12345; /* Garanta que a imagem fique abaixo do texto de fundo */
-  width: 100%;
+  width: 60%;
   margin: 0;
   position: relative;
   scale: 1;
