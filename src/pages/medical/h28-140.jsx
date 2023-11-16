@@ -7,7 +7,7 @@ import * as React from "react";
 
 export default function H28140() {
   const [imagemPrincipal, setImagemPrincipal] = React.useState(
-    "/static/images/produtos/medical/h28-140.jpg"
+    "/static/images/produtos/medical/h28-140.png"
   );
 
   const VideoPlayer = () => {
@@ -63,20 +63,20 @@ export default function H28140() {
             <div className="flex flex-row justify-between ">
               <img
                 className="cursor-pointer"
-                src="/static/images/produtos/medical/h28-70.jpg"
+                src="/static/images/produtos/medical/h28-140.png"
                 onClick={() =>
                   setImagemPrincipal(
-                    "/static/images/produtos/medical/h28-70.jpg"
+                    "/static/images/produtos/medical/h28-140.png"
                   )
                 }
               />
 
               <img
                 className="cursor-pointer"
-                src="/static/images/produtos/medical/h32-01.jpg"
+                src="/static/images/produtos/medical/h28-140-01.png"
                 onClick={() =>
                   setImagemPrincipal(
-                    "/static/images/produtos/medical/h32-01.jpg"
+                    "/static/images/produtos/medical/h28-140-01.png"
                   )
                 }
               />
