@@ -144,7 +144,8 @@ export default function H28140() {
           <h3 className="text-[#4481ff] mb-[3rem]">Diferenciais e Vantagens</h3>
           <div className="flex flex-row">
             <a className={`${styles.diferencial}`}>
-              Matéria prima PPSU. Grande leveza. <br />
+                Matéria prima PPSU. <br />
+              Grande leveza. <br />
               Maior proteção ao instrumental. <br />
               graças ao baixo desgaste por atrito.
             </a>

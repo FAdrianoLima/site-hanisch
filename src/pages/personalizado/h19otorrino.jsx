@@ -7,7 +7,7 @@ import * as React from "react";
 
 export default function H28140() {
   const [imagemPrincipal, setImagemPrincipal] = React.useState(
-    "/static/images/produtos/medical/h14.jpg"
+    "/static/images/produtos/personalizado/h19-9-6-oticaotorrino.png"
   );
 
   const VideoPlayer = () => {
@@ -63,20 +63,20 @@ export default function H28140() {
             <div className="flex flex-row justify-between ">
               <img
                 className="cursor-pointer"
-                src="/static/images/produtos/medical/h14.jpg"
+                src="/static/images/produtos/personalizado/h19-9-6-oticaotorrino.png"
                 onClick={() =>
                   setImagemPrincipal(
-                    "/static/images/produtos/medical/h14.jpg"
+                    "/static/images/produtos/personalizado/h19-9-6-oticaotorrino.png"
                   )
                 }
               />
 
               <img
                 className="cursor-pointer"
-                src="/static/images/produtos/medical/h32-01.jpg"
+                src="/static/images/produtos/personalizado/h26-1otica.png"
                 onClick={() =>
                   setImagemPrincipal(
-                    "/static/images/produtos/medical/h32-01.jpg"
+                    "/static/images/produtos/personalizado/h26-1otica.png"
                   )
                 }
               />
@@ -95,21 +95,29 @@ export default function H28140() {
           
           <div className={`${styles.box} `}>
            <div>
-           <span>LINHA MEDICAL</span>
-            <h3> H14</h3>
+           <span>LINHA PERSONALIZADO</span>
+            <h3> Estojo H19-9-6 Ótica Otorrino</h3>
             <h4>Dimensões:</h4>
             <p>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento - 130mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento - 190mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Largura - 40mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Largura - 90mm{" "}
               </span>
               <span>
                 {" "}
                 <img src="/static/images/circulo-azul.png" alt="" /> Altura - 60mm{" "}
+              </span>
+              <span>
+                {" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Número de Bandejas - 0{" "}
+              </span>
+              <span className="text-[red]">
+                {" "}
+                <img src="/static/images/circulo-vermelho.png" alt="" /> Não acompanha instrumental{" "}
               </span>
             </p>
            </div>
@@ -139,7 +147,8 @@ export default function H28140() {
           <h3 className="text-[#4481ff] mb-[3rem]">Diferenciais e Vantagens</h3>
           <div className="flex flex-row">
             <a className={`${styles.diferencial}`}>
-              Matéria prima PPSU. Grande leveza. <br />
+              Matéria prima PPSU. <br />
+              Grande leveza. <br />
               Maior proteção ao instrumental. <br />
               graças ao baixo desgaste por atrito.
             </a>
