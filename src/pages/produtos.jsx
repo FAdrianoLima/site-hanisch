@@ -35,9 +35,32 @@ export default function aHanisch() {
         <img className={styles.img} src="/static/images/bg-quem-somos.png" />
       </section>
 
+      <section
+        style={{ paddingBottom: "0px" }}
+        className={`${styles.background} bg-[#4481ff]`}
+      >
+        <div className={styles.interno}>
+          <div className={styles.box3}>
+          <Link href="/produtos/#odonto" passHref legacyBehavior>
+            <button className={styles.filtros}>Medical</button>
+          </Link>
+          <Link href="/produtos/#odonto" passHref legacyBehavior>
+            <button className={styles.filtros}>Odonto</button>
+          </Link>
+          <Link href="/produtos/#odonto" passHref legacyBehavior>
+            <button className={styles.filtros}>Lab</button>
+          </Link>
+          <Link href="/produtos/#odonto" passHref legacyBehavior>
+            <button className={styles.filtros}>Personalizados</button>
+          </Link>
+          </div>
+        </div>
+      </section>
+
       {/*
             MEDICAL
           */}
+      <a id="medical" className="bg-[#4481ff]"></a>
       <section className={`${styles.background} bg-[#4481ff]`}>
         <div className={styles.interno}>
           <div className={styles.linha}>
@@ -392,6 +415,7 @@ export default function aHanisch() {
       {/*
             ODONTO
           */}
+      <a id="odonto" className="bg-[#3d74e7]"></a>
       <section className={`${styles.background} bg-[#3d74e7]`}>
         <div className={styles.interno}>
           <div className={`${styles.linha} mt-[4rem]`}>
@@ -467,7 +491,7 @@ export default function aHanisch() {
           </div>
 
           <div className={`${styles.linha} mt-[4rem]`}>
-          <div className={` ${styles.produto2}`}>
+            <div className={` ${styles.produto2}`}>
               <div className={styles.informacoes}>
                 <p>Linha Odonto</p>
                 <h3>HO8</h3>
@@ -496,12 +520,10 @@ export default function aHanisch() {
                 alt="Produto"
               />
             </div>
-
           </div>
 
           <div className={`${styles.linha} mt-[4rem]`}>
-            
-          <div className={` ${styles.produto2}`}>
+            <div className={` ${styles.produto2}`}>
               <div className={styles.informacoes}>
                 <p>Linha Odonto</p>
                 <h3>HO18-01</h3>
@@ -537,7 +559,6 @@ export default function aHanisch() {
           </div>
 
           <div className={`${styles.linha} mt-[4rem]`}>
-            
             <div className={` ${styles.produto2}`}>
               <div className={styles.informacoes}>
                 <p>Linha Odonto</p>
@@ -555,7 +576,6 @@ export default function aHanisch() {
               />
             </div>
           </div>
-
         </div>
       </section>
       {/*
@@ -564,6 +584,7 @@ export default function aHanisch() {
       {/*
             lab
           */}
+      <a id="lab" className="bg-[#3d74e7]"></a>
       <section className={`${styles.background} bg-[#376cd9]`}>
         <div className={styles.interno}>
           <div className={styles.linha}>
@@ -593,6 +614,7 @@ export default function aHanisch() {
       {/*
             Personalizados
           */}
+      <a id="personalizados" className="bg-[#3d74e7]"></a>
 
       <section className={`${styles.background} bg-[#666666]`}>
         <div className={styles.interno}>
@@ -608,7 +630,10 @@ export default function aHanisch() {
               <div className={styles.textoFundo}>
                 <h2>Ótica Otorrino</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h19-9-6-oticaotorrino.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h19-9-6-oticaotorrino.png"
+                alt="Produto"
+              />
             </div>
 
             <div className={` ${styles.produto4}`}>
@@ -622,7 +647,10 @@ export default function aHanisch() {
               <div className={styles.textoFundo}>
                 <h2>H26 1 Ótica</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h26-1otica.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h26-1otica.png"
+                alt="Produto"
+              />
             </div>
           </div>
 
@@ -638,7 +666,10 @@ export default function aHanisch() {
               <div className={styles.textoFundo}>
                 <h2>H26 2 Óticas</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h26-2oticas.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h26-2oticas.png"
+                alt="Produto"
+              />
             </div>
 
             <div className={` ${styles.produto4}`}>
@@ -652,7 +683,10 @@ export default function aHanisch() {
               <div className={styles.textoFundo}>
                 <h2>Ótica Camisa</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h26-OticaCamisa.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h26-OticaCamisa.png"
+                alt="Produto"
+              />
             </div>
           </div>
 
@@ -668,7 +702,10 @@ export default function aHanisch() {
               <div className={styles.textoFundo}>
                 <h2>H28-70 Cabo de Fibra Ótica</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h28-70-cabodefibraotica.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h28-70-cabodefibraotica.png"
+                alt="Produto"
+              />
             </div>
 
             <div className={` ${styles.produto4}`}>
@@ -682,7 +719,10 @@ export default function aHanisch() {
               <div className={styles.textoFundo}>
                 <h2>Motor Buco</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h28-70-motordebuco.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h28-70-motordebuco.png"
+                alt="Produto"
+              />
             </div>
           </div>
 
@@ -698,21 +738,31 @@ export default function aHanisch() {
               <div className={styles.textoFundo}>
                 <h2>Pinças Curtas</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h28-140-pincascurtas.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h28-140-pincascurtas.png"
+                alt="Produto"
+              />
             </div>
 
             <div className={` ${styles.produto4}`}>
               <div className={styles.informacoes}>
                 <p>Linha Personalizados</p>
                 <h3>H39-110 Perfurador</h3>
-                <Link href="/personalizado/h39perfurador" passHref legacyBehavior>
+                <Link
+                  href="/personalizado/h39perfurador"
+                  passHref
+                  legacyBehavior
+                >
                   <button>Ver Produto</button>
                 </Link>
               </div>
               <div className={styles.textoFundo}>
                 <h2>H39-110 Perfurador</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h39-110-perfurador.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h39-110-perfurador.png"
+                alt="Produto"
+              />
             </div>
           </div>
 
@@ -728,7 +778,10 @@ export default function aHanisch() {
               <div className={styles.textoFundo}>
                 <h2>H45 Ótica</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h45-Otica.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h45-Otica.png"
+                alt="Produto"
+              />
             </div>
 
             <div className={` ${styles.produto4}`}>
@@ -742,7 +795,10 @@ export default function aHanisch() {
               <div className={styles.textoFundo}>
                 <h2>H45 2 Óticas</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h45-2oticas.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h45-2oticas.png"
+                alt="Produto"
+              />
             </div>
           </div>
 
@@ -758,21 +814,31 @@ export default function aHanisch() {
               <div className={styles.textoFundo}>
                 <h2>Mão do Shaver</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h45-maodoshaver.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h45-maodoshaver.png"
+                alt="Produto"
+              />
             </div>
 
             <div className={` ${styles.produto4}`}>
               <div className={styles.informacoes}>
                 <p>Linha Personalizados</p>
                 <h3>H49-70 Cistocópio</h3>
-                <Link href="/personalizado/h49cistocopio" passHref legacyBehavior>
+                <Link
+                  href="/personalizado/h49cistocopio"
+                  passHref
+                  legacyBehavior
+                >
                   <button>Ver Produto</button>
                 </Link>
               </div>
               <div className={styles.textoFundo}>
                 <h2>H49-70 Cistocópio</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h49-70-Cistoscopia.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h49-70-Cistoscopia.png"
+                alt="Produto"
+              />
             </div>
           </div>
 
@@ -781,28 +847,42 @@ export default function aHanisch() {
               <div className={styles.informacoes}>
                 <p>Linha Personalizados</p>
                 <h3>H49-100 Ureteroscópio</h3>
-                <Link href="/personalizado/h49ureteroscopio" passHref legacyBehavior>
+                <Link
+                  href="/personalizado/h49ureteroscopio"
+                  passHref
+                  legacyBehavior
+                >
                   <button>Ver Produto</button>
                 </Link>
               </div>
               <div className={styles.textoFundo}>
                 <h2>H49-100 Ureteroscópio</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h49-100-Ureteroscopio.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h49-100-Ureteroscopio.png"
+                alt="Produto"
+              />
             </div>
 
             <div className={` ${styles.produto4}`}>
               <div className={styles.informacoes}>
                 <p>Linha Personalizados</p>
                 <h3>H52-100 Artroscopia Básica</h3>
-                <Link href="/personalizado/h52artroscopia" passHref legacyBehavior>
+                <Link
+                  href="/personalizado/h52artroscopia"
+                  passHref
+                  legacyBehavior
+                >
                   <button>Ver Produto</button>
                 </Link>
               </div>
               <div className={styles.textoFundo}>
                 <h2>Artroscopia Básica</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h52-100-Artroscopia.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h52-100-Artroscopia.png"
+                alt="Produto"
+              />
             </div>
           </div>
 
@@ -818,11 +898,12 @@ export default function aHanisch() {
               <div className={styles.textoFundo}>
                 <h2>Pinças Longas</h2>
               </div>
-              <img src="/static/images/produtos/personalizado/h52-160-PincasCurtasLongas.png" alt="Produto" />
+              <img
+                src="/static/images/produtos/personalizado/h52-160-PincasCurtasLongas.png"
+                alt="Produto"
+              />
             </div>
- 
           </div>
-
         </div>
       </section>
 

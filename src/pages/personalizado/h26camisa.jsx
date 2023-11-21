@@ -7,7 +7,7 @@ import * as React from "react";
 
 export default function H28140() {
   const [imagemPrincipal, setImagemPrincipal] = React.useState(
-    "/static/images/produtos/personalizado/h26-1otica.png"
+    "/static/images/produtos/personalizado/h26-OticaCamisa.png"
   );
 
   const VideoPlayer = () => {
@@ -63,10 +63,10 @@ export default function H28140() {
             <div className="flex flex-row justify-between ">
               <img
                 className="cursor-pointer"
-                src="/static/images/produtos/personalizado/h26-1otica.png"
+                src="/static/images/produtos/personalizado/h26-OticaCamisa.png"
                 onClick={() =>
                   setImagemPrincipal(
-                    "/static/images/produtos/personalizado/h26-1otica.png"
+                    "/static/images/produtos/personalizado/h26-OticaCamisa.png"
                   )
                 }
               />
@@ -81,35 +81,26 @@ export default function H28140() {
                 }
               />
 
-              <img
-                className="cursor-pointer"
-                src="/static/images/produtos/medical/h37-90.jpg"
-                onClick={() =>
-                  setImagemPrincipal(
-                    "/static/images/produtos/medical/h37-90.jpg"
-                  )
-                }
-              />
             </div>
           </div>
           
           <div className={`${styles.box} `}>
            <div>
            <span>LINHA PERSONALIZADO</span>
-            <h3> H14</h3>
+            <h3>H26 - Ótica - Camisa - Trocater</h3>
             <h4>Dimensões:</h4>
             <p>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento - 130mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento - 260mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Largura - 40mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Largura - 120mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Altura - 60mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Altura - 50mm{" "}
               </span>
               <span>
                 {" "}

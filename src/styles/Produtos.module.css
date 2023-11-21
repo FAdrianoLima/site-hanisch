@@ -58,6 +58,16 @@
   color: #4481FF;
 }
 
+.box3 {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .img {
   width: 60%;
   overflow: hidden;
@@ -303,6 +313,27 @@
 .produto4:hover img {
   scale: 1.1;
   transition: 1s;
+}
+
+.filtros {
+  width: 100%;
+  max-width: 10rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border: #ffffff 2px solid;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: 0.5s;
+  margin: 0rem 0.5rem;
+  cursor: pointer;
+}
+
+.filtros:hover {
+  background-color: #666666;
+  border: #666666 2px solid;
+  color: #ffffff;
+  transition: 0.5s;
 }
 
 @media only screen and (min-width: 216px) and (max-width: 926px) {

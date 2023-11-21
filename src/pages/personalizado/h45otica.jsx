@@ -7,7 +7,7 @@ import * as React from "react";
 
 export default function H28140() {
   const [imagemPrincipal, setImagemPrincipal] = React.useState(
-    "/static/images/produtos/personalizado/h14.png"
+    "/static/images/produtos/personalizado/h45-Otica.png"
   );
 
   const VideoPlayer = () => {
@@ -63,10 +63,10 @@ export default function H28140() {
             <div className="flex flex-row justify-between ">
               <img
                 className="cursor-pointer"
-                src="/static/images/produtos/personalizado/h14.png"
+                src="/static/images/produtos/personalizado/h45-Otica.png"
                 onClick={() =>
                   setImagemPrincipal(
-                    "/static/images/produtos/personalizado/h14.png"
+                    "/static/images/produtos/personalizado/h45-Otica.png"
                   )
                 }
               />
@@ -96,20 +96,20 @@ export default function H28140() {
           <div className={`${styles.box} `}>
            <div>
            <span>LINHA PERSONALIZADO</span>
-            <h3> H14</h3>
+            <h3> H45 Ótica</h3>
             <h4>Dimensões:</h4>
             <p>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento - 130mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento - 450mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Largura - 40mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Largura - 100mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Altura - 60mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Altura - 50mm{" "}
               </span>
               <span>
                 {" "}

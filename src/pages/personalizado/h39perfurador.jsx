@@ -7,7 +7,7 @@ import * as React from "react";
 
 export default function H28140() {
   const [imagemPrincipal, setImagemPrincipal] = React.useState(
-    "/static/images/produtos/personalizado/h14.png"
+    "/static/images/produtos/personalizado/h39-110-perfurador.png"
   );
 
   const VideoPlayer = () => {
@@ -63,10 +63,10 @@ export default function H28140() {
             <div className="flex flex-row justify-between ">
               <img
                 className="cursor-pointer"
-                src="/static/images/produtos/personalizado/h14.png"
+                src="/static/images/produtos/personalizado/h39-110-perfurador.png"
                 onClick={() =>
                   setImagemPrincipal(
-                    "/static/images/produtos/personalizado/h14.png"
+                    "/static/images/produtos/personalizado/h39-110-perfurador.png"
                   )
                 }
               />
@@ -96,24 +96,24 @@ export default function H28140() {
           <div className={`${styles.box} `}>
            <div>
            <span>LINHA PERSONALIZADO</span>
-            <h3> H14</h3>
+            <h3> H39-110 Perfurador</h3>
             <h4>Dimensões:</h4>
             <p>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento - 130mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Comprimento - 390mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Largura - 40mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Largura - 265mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Altura - 60mm{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Altura - 110mm{" "}
               </span>
               <span>
                 {" "}
-                <img src="/static/images/circulo-azul.png" alt="" /> Número de Bandejas - 0{" "}
+                <img src="/static/images/circulo-azul.png" alt="" /> Número de Bandejas - 1{" "}
               </span>
               <span className="text-[red]">
                 {" "}
