@@ -41,16 +41,16 @@ export default function aHanisch() {
       >
         <div className={styles.interno}>
           <div className={styles.box3}>
-          <Link href="/produtos/#odonto" passHref legacyBehavior>
+          <Link href="/produtos/#medical" passHref legacyBehavior>
             <button className={styles.filtros}>Medical</button>
           </Link>
           <Link href="/produtos/#odonto" passHref legacyBehavior>
             <button className={styles.filtros}>Odonto</button>
           </Link>
-          <Link href="/produtos/#odonto" passHref legacyBehavior>
+          <Link href="/produtos/#lab" passHref legacyBehavior>
             <button className={styles.filtros}>Lab</button>
           </Link>
-          <Link href="/produtos/#odonto" passHref legacyBehavior>
+          <Link href="/produtos/#personalizados" passHref legacyBehavior>
             <button className={styles.filtros}>Personalizados</button>
           </Link>
           </div>
